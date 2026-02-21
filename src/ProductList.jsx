@@ -298,8 +298,8 @@ function ProductList({ onHomeClick }) {
                             <div className="product-list"> {/* Container for the list of plant cards */}
                                 {category.plants.map((plant, plantIndex) => ( // Loop through each plant in the current category
                                     <div className="product-card" key={plantIndex}> {/* Unique key for each plant card */}
-                                        <img 
-                                            className="product-image" 
+                                        <img
+                                            className="product-image"
                                             src={plant.image} // Display the plant image
                                             alt={plant.name} // Alt text for accessibility
                                         />
